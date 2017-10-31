@@ -1,0 +1,39 @@
+C1 = 481526a435772e8c9426a76eab9733bd1a56c8edb15f1431fe8f48734c9b4a1fcdef686e24695ae622bcad76cb94f328a0102b47117b509bcf2086f33a2d12da67016629beb5b17bfad4d8e703211bb508eea588ed565cc00785555717c489b31cdb433be3a37e3462a714d57ff89e61df6e3266374fbb6e7214f41463ad23f5
+
+C2 = 830fba3a7606b09aa82b9d21f1a00b706b7096c709283b1bdb60117a3e2a1680406edd751bc4ca86b47bb77fbdda39873a59e7123b3f17e00daf77d023f9bd9e9162dbe288c955d0712eff6c35058a259b9d905bad2a11200452b18e15be59cdcaebe922c52ed90323d258532d2a089bd7daa061915b1a49a22f266b75f843ee
+
+n = 00b255146d7762452ad23e4e7a0cb5aff4a887d581b1871696d334728c903f56be684ba47de8afb50682ef3fbccc2663c83b039f00ebc8b7232210897557b81cf306d96ba73b0286b6c366488394761f00ca54ffef16f0f979be4694c5b82e90d7be31225c616ec4bd192f68eecaf1f54fcff160807fbcaf7e49d9ce3c392e8a7d
+
+
+C3 = 5f58633f18c67f5f2ddbcc4810e4a1b2d97881ca9648762e6bce3c7567f3635107cbafa86869d5d9b825b9d3187d3784e41312489c3eb49c435485872d30a3261d4f7205f6ba231027ac1ee2dbf72a9e41782ca5c12bf70e84d059af406711214dd2bcaa86325d0c35e8c7edc8b9f71b3337fa82ef84058f9585bc16f1ac54cf
+
+*********************************** Ciphertext C3  = m3^e (in correct format) *******************************************************
+
+\x5f\x58\x63\x3f\x18\xc6\x7f\x5f\x2d\xdb\xcc\x48\x10\xe4\xa1\xb2\xd9\x78\x81\xca\x96\x48\x76\x2e\x6b\xce\x3c\x75\x67\xf3\x63\x51\x07\xcb\xaf\xa8\x68\x69\xd5\xd9\xb8\x25\xb9\xd3\x18\x7d\x37\x84\xe4\x13\x12\x48\x9c\x3e\xb4\x9c\x43\x54\x85\x87\x2d\x30\xa3\x26\x1d\x4f\x72\x05\xf6\xba\x23\x10\x27\xac\x1e\xe2\xdb\xf7\x2a\x9e\x41\x78\x2c\xa5\xc1\x2b\xf7\x0e\x84\xd0\x59\xaf\x40\x67\x11\x21\x4d\xd2\xbc\xaa\x86\x32\x5d\x0c\x35\xe8\xc7\xed\xc8\xb9\xf7\x1b\x33\x37\xfa\x82\xef\x84\x05\x8f\x95\x85\xbc\x16\xf1\xac\x54\xcf
+
+**************************************************************************************************************************************
+
+C1 = m1^e (mod n)
+C2 = m2^e (mod n)
+So, we can compute C3 = C1*C2 (mod n) =  (m1*m2)^e (mod n)
+
+Since in the given problem m1*m2 = m3, we get C3 = m3^e (mod n) which would decrpyt to m3
+
+"ans.py" contains the code to compute C3. 
+
+Such attacks can be prevented using OAEP
+
+
+VERIFICATION OF THE METHOD
+1. Using rsa_modified.c to create the following ciphertexts:
+	C1 = Enc(K, 2)
+	C2 = Enc(K, 4)
+	C3 = Enc(K, 8)
+	Results of encryption stored in encryption.txt
+
+2. Used verify.c to produce C3' = C1*C2 mod n
+
+3. C3' = C3 (shown in the screenshot)
+
+
+

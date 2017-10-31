@@ -1,0 +1,58 @@
+Private-Key: (1024 bit)
+modulus:
+    00:d8:de:e7:ca:19:e4:33:8f:26:ba:a5:9d:6f:48:
+    aa:15:38:d9:0a:57:78:d8:ac:41:bc:ff:67:0a:56:
+    9c:67:e2:07:92:b7:d1:17:c6:65:d0:fc:54:a2:f3:
+    e5:e1:33:35:80:34:ff:c1:d8:34:ba:c1:51:33:ae:
+    01:69:a2:14:c0:02:c9:82:10:a6:b6:91:8f:50:3a:
+    87:44:1e:ee:ca:69:37:0c:30:43:92:82:66:6f:15:
+    5f:cc:57:0a:0c:2f:d7:c4:aa:df:2e:b3:10:ff:d8:
+    e4:5d:6b:ea:2f:a8:31:63:4c:8d:8c:c2:4f:61:1d:
+    e1:82:e2:77:5c:5e:48:55:37
+publicExponent: 65537 (0x10001)
+privateExponent:
+    39:83:43:ad:11:18:b7:a3:aa:fd:ac:96:07:c1:19:
+    79:ef:4d:7f:b4:9a:d3:bb:3a:e3:c8:47:a7:32:38:
+    e0:43:cd:06:57:c1:17:b1:01:a7:5e:83:83:83:72:
+    df:3a:19:62:1a:ac:08:d8:31:83:a5:68:c7:6f:c9:
+    e8:1d:97:aa:a6:bc:e3:8f:26:8c:ce:6a:a2:c8:81:
+    ba:40:07:dc:77:d7:0f:17:d5:19:3f:a4:1d:f6:8c:
+    92:1c:6c:fa:d5:9d:90:49:76:e1:60:41:b6:96:2a:
+    b2:b8:a9:ec:ab:51:e8:fa:ce:a6:63:9c:51:2c:87:
+    10:7c:6a:e2:31:b9:21:01
+prime1:
+    00:fe:36:de:44:3a:aa:03:cc:b7:0b:4d:62:9b:1f:
+    fc:44:df:07:18:89:af:59:80:ed:77:4e:ea:d9:68:
+    36:e6:46:8f:28:c1:be:fe:b8:48:d9:bb:b8:d0:49:
+    46:79:da:0e:0c:3d:ee:1f:65:49:1d:f2:2b:6e:f6:
+    4b:01:16:f7:97
+prime2:
+    00:da:64:e2:a9:ec:7d:d6:e2:cf:1b:7b:1f:2d:2a:
+    b5:df:3d:58:7a:78:69:c6:f4:45:6c:2f:09:8a:5f:
+    35:1b:f5:66:a9:12:7e:9f:9e:e7:4f:bd:75:21:11:
+    a9:2d:6b:5c:5e:a8:cd:ea:1b:56:7f:e6:e6:bf:84:
+    9f:95:78:43:61
+exponent1:
+    08:78:bb:9f:7a:74:ff:fb:6a:7e:2d:ee:03:4d:65:
+    92:c5:fb:ee:8d:68:12:8b:81:5e:60:7a:e3:13:de:
+    00:7e:89:76:ca:3e:1b:2e:f8:fe:88:8a:f8:25:f8:
+    fb:46:91:01:47:6f:10:0c:c8:0a:ff:6f:03:1b:a2:
+    14:3f:37:b1
+exponent2:
+    25:f8:f2:9c:3e:fd:66:56:8b:52:28:e7:33:d0:40:
+    4d:2f:7a:69:d8:f3:f3:5e:d7:8f:46:e2:6e:c7:bd:
+    11:3e:6a:fa:2c:b8:0d:82:f0:8f:21:ce:f2:d0:02:
+    4d:5e:64:72:25:01:a0:99:de:41:60:e1:70:1d:5c:
+    2d:fd:fa:21
+coefficient:
+    00:b7:87:35:d0:be:6f:01:37:6d:cf:0b:8f:4a:29:
+    30:26:74:69:02:e8:e2:b0:8c:4a:06:ec:49:ca:5e:
+    ed:50:d3:f9:c8:cf:e8:6b:c5:cd:ee:25:56:7a:a9:
+    dc:66:f2:4c:22:c0:04:d0:60:ee:e9:c2:b2:e1:15:
+    1b:cf:f5:2c:9f
+Encrypted 2:
+6ad60ee1373696e46172f096ba8694bd0a210e820a1be01a06a1d21b77158ec3e8f2dc49544a0ca9929e27990fec5343c3c94e1eb1e8680d2a46a34eff263dd257dac89a120b8b7e21fe73451c5d22200532ac2103c35264172d5726d23323f5d03ff860af99bad407f2e1b3ee5fce6065e19521203abe666a561d986dd1d0e3
+Encrypted 4:
+af57189b07c7c611164790ef4769293c43285e9a858e6ed4f2064638c0dc119aa4892bfd89cbeeb828f7018b22cdf0d74330a3bc039ed5600d950bd2aa757e76819c92678f2914bfa0fc0027f4e2fb72388424d1c16611db8b11ef9645f6e4eb7f308de5f2e8fd48609b03ea19b9146d6d0ed1ac3ed0f1aa388c3aad6aa2c9c6
+Encrypted 8:
+5b623b009180ce529068edecd85e93cf31a827cc8c8bf92758f061166e03a2ef63df320fd7493ee50302ad356467930ab48a0e2d4e7d454e65ae0794f5a36e9252819998c40ce0df0974e92b4964923c49f1f1df2f99d7f1a5261efb6fc3ba91cc0a8df417a54289bae87d80ca0ae1fad367278e782ac4ea5ce338c25ab09732
